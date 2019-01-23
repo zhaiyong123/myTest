@@ -147,7 +147,7 @@ public class HttpClientTest {
         String url = "http://localhost:8080/httpService/sendPostDataByMap";
         Map<String, String> map = new HashMap<String, String>();
         map.put("name", "wyj");
-        map.put("xiugai", "南京");
+        map.put("xiugaiasdadada", "南京");
         map.put("sss","sss");
         String body = sendPostDataByMap(url, map, "utf-8");
         System.out.println("响应结果：" + body);
