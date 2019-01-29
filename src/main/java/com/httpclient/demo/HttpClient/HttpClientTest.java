@@ -123,7 +123,7 @@ public class HttpClientTest {
         String result = "";
 
         // 创建httpclient对象
-        CloseableHttpClient httpClient = HttpClients.createDefault();
+        CloseableHttpClient httpClient      = HttpClients.createDefault();
 
         // 创建get方式请求对象
         HttpGet httpGet = new HttpGet(url);
