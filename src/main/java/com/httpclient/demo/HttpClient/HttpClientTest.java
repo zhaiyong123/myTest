@@ -157,7 +157,7 @@ public class HttpClientTest {
     public void testSendPostDataByJson() throws ClientProtocolException, IOException {
         String url = "http://localhost:8080/httpService/sendPostDataByJson";
         Map<String, String> map = new HashMap<String, String>();
-        map.put("namename", "wyj");
+        map.put("namename123", "wyj");
         map.put("city", "南京");
         String body = sendPostDataByJson(url, JSON.toJSONString(map), "utf-8");
         System.out.println("响应结果：" + body);
